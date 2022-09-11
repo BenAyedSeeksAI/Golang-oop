@@ -53,5 +53,6 @@ func main() {
 	listOfSalaries := instanceCalculate(list)
 	for _, element := range listOfSalaries {
 		fmt.Println(element.getProfession())
+		fmt.Println(element.annualSalary())
 	}
 }
